@@ -7,7 +7,7 @@ import { Bounce } from "react-awesome-reveal";
 export const Brands = () => {
   return (
     <Bounce direction="right" triggerOnce>
-      <div className={styles.cardsContainer}>
+      <div className={`${styles.cardsContainer} flexContainer`}>
         {brands.map((image, i) => (
           <Card
             background={{ background: image.background }}

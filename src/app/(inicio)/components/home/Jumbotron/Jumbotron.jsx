@@ -7,10 +7,6 @@ export const Jumbotron = () => {
       <div className={styles.jumbotronTitles}>
         <div className={styles.jumbotronMaskTitles}>
           <Bounce direction='right' triggerOnce>
-            <img
-              src="/assets/images/logo/logo.png"
-              className={styles.jumbotronImage}
-            />
             <h1 className={styles.jumbotronTitle}>MULTIMEDIOS DIGITAL</h1>
           </Bounce>
         </div>

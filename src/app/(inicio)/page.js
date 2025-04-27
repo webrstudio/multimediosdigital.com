@@ -6,7 +6,6 @@ export default function Home() {
     <main>
       <Jumbotron />
       <Container backgroundBlack>
-        <Title title="M DIGITAL" />
         <Options />
       </Container>
       <Container>

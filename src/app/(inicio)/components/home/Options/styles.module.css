@@ -1,10 +1,9 @@
-.optionsWrapper {
-  margin: 0 auto;
-  max-width: 50%;
-}
 .optionCard {
   align-items: center;
   background: var(--white-secondary);
+  box-shadow: -12px 13px 0px 2px var(--gray-primary);
+  -webkit-box-shadow: -12px 13px 0px 2px var(--gray-primary);
+  -moz-box-shadow: -12px 13px 0px 2px var(--gray-primary);
   border-radius: 9px;
   color: var(--black-secondary);
   display: flex;
@@ -17,4 +16,10 @@
 }
 .optionCard img {
   width: 6rem;
+}
+.logoWrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+  width: 100%;
 }
