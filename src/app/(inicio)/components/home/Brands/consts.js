@@ -5,7 +5,7 @@ export const brands = [
         pathBackground:'#d52329'
     },
     {
-        image:'/assets/images/logos/chic.png',
+        image:'/assets/images/logos/chic.jpg',
         background:'#fff',
         pathBackground:'#000'
     },
@@ -16,7 +16,7 @@ export const brands = [
     },
     {
         image:'/assets/images/logos/canal-6.png',
-        background:'#fbce01',
+        background:'#fff',
         pathBackground:'#ab862d'
     },
     {
