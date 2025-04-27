@@ -1,38 +1,47 @@
 export const brands = [
     {
         image:'/assets/images/logos/milenio.png',
-        background:'#fff'
+        background:'#fff',
+        pathBackground:'#d52329'
     },
     {
         image:'/assets/images/logos/chic.png',
-        background:'#fff'
+        background:'#fff',
+        pathBackground:'#000'
     },
     {
         image:'/assets/images/logos/telediario.png',
-        background:'#000'
+        background:'#000',
+        pathBackground:'#0270bb'
     },
     {
         image:'/assets/images/logos/canal-6.png',
-        background:'#fbce01'
+        background:'#fbce01',
+        pathBackground:'#ab862d'
     },
     {
         image:'/assets/images/logos/fama.png',
-        background:'#fff'
+        background:'#fff',
+        pathBackground:'#ff0000'
     },
     {
         image:'/assets/images/logos/septima.png',
-        background:'#0b455c'
+        background:'#0b455c',
+        pathBackground:'#e92f4c'
     },
     {
         image:'/assets/images/logos/mediotiempo.png',
-        background:'#fff'
+        background:'#fff',
+        pathBackground:'#feb341'
     },
     {
         image:'/assets/images/logos/m.png',
-        background:'#fff'
+        background:'#fff',
+        pathBackground:'#000'
     },
     {
         image:'/assets/images/logos/la-aficion.jpg',
-        background:'#4ea748'
+        background:'#4ea748',
+        pathBackground:'#dfe326'
     }
 ]

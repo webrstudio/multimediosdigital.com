@@ -1,23 +1,28 @@
+import Link from "next/link";
 import { brands } from "./consts";
 import styles from "./styles.module.css";
 import * as motion from "motion/react-client";
+import { Bounce } from "react-awesome-reveal";
 
 export const Brands = () => {
   return (
-    <div style={container}>
-      {brands.map((image, i) => (
-        <Card
-          background={{ background: image.background }}
-          i={i}
-          image={image.image}
-          key={i}
-        />
-      ))}
-    </div>
+    <Bounce direction="right" triggerOnce>
+      <div className={styles.cardsContainer}>
+        {brands.map((image, i) => (
+          <Card
+            background={{ background: image.background }}
+            pathBackground={image.pathBackground}
+            i={i}
+            image={image.image}
+            key={i}
+          />
+        ))}
+      </div>
+    </Bounce>
   );
 };
 
-function Card({ image, background, i }) {
+function Card({ image, background, pathBackground, i }) {
   return (
     <motion.div
       className={`card-container-${i}`}
@@ -26,16 +31,19 @@ function Card({ image, background, i }) {
       whileInView="onscreen"
       viewport={{ amount: 0.8 }}
     >
-      <div style={{ ...splash }} />
-      <motion.div
-        style={{ ...card, ...background }}
-        variants={cardVariants}
-        className={`card`}
-      >
-        <figure className={styles.cardImage}>
-          <img src={image} />
-        </figure>
-      </motion.div>
+      <div style={{ ...splash, background: pathBackground }} />
+      <Link href="/">
+        <motion.div
+          style={{ ...card, ...background }}
+          href="/"
+          variants={cardVariants}
+          className={`card`}
+        >
+          <figure className={styles.cardImage}>
+            <img src={image} />
+          </figure>
+        </motion.div>
+      </Link>
     </motion.div>
   );
 }
@@ -55,24 +63,31 @@ const cardVariants = {
   },
 };
 
+// 🎯 Cambiamos container para usar grid/flex responsivo
 const container = {
   margin: "0 auto",
-  maxWidth: "500px",
+  maxWidth: "1000px",
   width: "100%",
+  display: "grid",
+  gridTemplateColumns: "1fr",
+  gap: "2rem",
 };
 
+// 🎯 Card container igual, pero quitamos centrar individualmente
 const cardContainer = {
-  overflow: "hidden",
+  borderRadius: "9px",
+  boxShadow: "-5px 7px 56px -11px rgba(0, 0, 0, 0.161)",
+  height: "400px",
   display: "flex",
-  justifyContent: "center",
-  alignItems: "center",
+  overflow: "hidden",
   position: "relative",
+  width: "100%",
+  justifyContent: "center",
 };
 
 const splash = {
-  background: 'var(--black-primary)',
   position: "absolute",
-  top: "3rem",
+  top: "0",
   left: 0,
   right: 0,
   bottom: 0,
@@ -81,10 +96,11 @@ const splash = {
 
 const card = {
   fontSize: 164,
-  width: "300px",
-  height: "500px",
+  width: "70%",
+  height: "100%",
   display: "flex",
   justifyContent: "center",
   alignItems: "center",
-  borderRadius: 20,
+  borderRadius: "9px",
+  margin: "0 auto",
 };
