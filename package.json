@@ -1,0 +1,25 @@
+{
+  "name": "mesmos-show",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@paypal/react-paypal-js": "^8.8.2",
+    "axios": "^1.8.1",
+    "motion": "^12.9.2",
+    "next": "15.1.7",
+    "react": "^19.0.0",
+    "react-awesome-reveal": "^4.3.1",
+    "react-dom": "^19.0.0",
+    "react-floating-whatsapp": "^5.0.8",
+    "react-icons": "^5.5.0",
+    "react-image-gallery": "^1.4.0",
+    "react-multi-carousel": "^2.8.6",
+    "sweetalert2": "^11.6.13"
+  }
+}

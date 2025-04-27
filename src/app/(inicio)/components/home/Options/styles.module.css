@@ -1,0 +1,20 @@
+.optionsWrapper {
+  margin: 0 auto;
+  max-width: 50%;
+}
+.optionCard {
+  align-items: center;
+  background: var(--white-secondary);
+  border-radius: 9px;
+  color: var(--black-secondary);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  margin: 1rem;
+  padding: 2.5rem;
+  text-decoration: none;
+}
+.optionCard img {
+  width: 6rem;
+}

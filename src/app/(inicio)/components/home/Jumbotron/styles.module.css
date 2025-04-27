@@ -1,0 +1,43 @@
+.jumbotronWrapper {
+  color: var(--white-primary);
+  width: 100%;
+}
+.jumbotronMaskTitles {
+  align-items: center;
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  padding: 2rem 0;
+  text-align: center;
+}
+.jumbotronTitles {
+  background: url("../../../../../../public/assets/images/banner.webp");
+  background-position: top;
+  background-size: cover;
+  width: 100%;
+}
+.jumbotronTitle {
+  font-weight: 400;
+  letter-spacing: 1rem;
+}
+.jumbotronImage {
+  padding: 0.5rem;
+}
+@media (min-width: 240px) and (max-width: 900px) {
+  .jumbotronMaskTitles {
+    flex-direction: column;
+    gap:1rem;
+    padding:1rem 0;
+  }
+  .jumbotronTitle {
+    font-size:1.1rem;
+  }
+  .jumbotronImage{
+    width:50%;
+    padding:0;
+  }
+}

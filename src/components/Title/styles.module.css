@@ -1,0 +1,20 @@
+.titleWrapper {
+  color: var(--gray-primary);
+  font-size: 20px;
+  font-weight: 400;
+  overflow-x: hidden;
+  padding-bottom: 8rem;
+  text-align: center;
+}
+.whiteColor {
+  color: var(--white-primary);
+  text-shadow: 6px 2px 7px rgba(255, 222, 89, 0.6);
+}
+.blackColor {
+  color: var(--black-primary);
+}
+@media (min-width: 240px) and (max-width: 900px) {
+  .titleWrapper {
+    font-size: 1rem;
+  }
+}
