@@ -5,9 +5,14 @@ export const brands = [
         pathBackground:'#d52329'
     },
     {
-        image:'/assets/images/logos/chic.jpg',
+        image:'/assets/images/logos/mediotiempo.png',
         background:'#fff',
-        pathBackground:'#000'
+        pathBackground:'#feb341'
+    },
+    {
+        image:'/assets/images/logos/canal-6.png',
+        background:'#fff',
+        pathBackground:'#ab862d'
     },
     {
         image:'/assets/images/logos/telediario.png',
@@ -15,9 +20,9 @@ export const brands = [
         pathBackground:'#0270bb'
     },
     {
-        image:'/assets/images/logos/canal-6.png',
+        image:'/assets/images/logos/chic.jpg',
         background:'#fff',
-        pathBackground:'#ab862d'
+        pathBackground:'#000'
     },
     {
         image:'/assets/images/logos/fama.png',
@@ -30,11 +35,6 @@ export const brands = [
         pathBackground:'#e92f4c'
     },
     {
-        image:'/assets/images/logos/mediotiempo.png',
-        background:'#fff',
-        pathBackground:'#feb341'
-    },
-    {
         image:'/assets/images/logos/m.png',
         background:'#fff',
         pathBackground:'#000'
@@ -43,5 +43,10 @@ export const brands = [
         image:'/assets/images/logos/la-aficion.jpg',
         background:'#4ea748',
         pathBackground:'#dfe326'
+    },
+    {
+        image:'/assets/images/logos/rg-la-deportiva.png',
+        background:'#951014',
+        pathBackground:'#000'
     }
 ]

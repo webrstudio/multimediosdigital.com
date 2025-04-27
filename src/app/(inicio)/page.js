@@ -1,5 +1,5 @@
 import { Container, Title } from "@/components";
-import { Jumbotron, Options, Brands } from "./components/home";
+import { Jumbotron, Options, Brands, About } from "./components/home";
 
 export default function Home() {
   return (
@@ -9,11 +9,12 @@ export default function Home() {
         <Options />
       </Container>
       <Container>
-        <Title
-          title="EL #1 DE PROPIEDADES DIGITALES EN MÉXICO"
-          blackColor
-          />
+        <Title title="EL #1 DE PROPIEDADES DIGITALES EN MÉXICO" blackColor />
         <Brands />
+      </Container>
+      <Container backgroundBlack>
+        <Title title="¿QUÉ ES M DIGITAL?" whiteColor />
+        <About />
       </Container>
     </main>
   );

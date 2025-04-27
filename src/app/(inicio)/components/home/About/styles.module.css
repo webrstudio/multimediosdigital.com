@@ -1,0 +1,15 @@
+.aboutWrapper{
+    color:var(--gray-primary);
+    display:flex;
+    flex-direction: column;
+    gap:1.5rem;
+}
+.aboutWrapper p{
+    line-height: 2.5rem;
+    text-align: justify;
+}
+.aboutWrapper hr{
+    background:var(--gray-primary);
+    margin-top:4rem;
+    opacity: 0.5;
+}

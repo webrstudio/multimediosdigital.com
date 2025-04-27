@@ -2,11 +2,11 @@ import Link from "next/link";
 import { brands } from "./consts";
 import styles from "./styles.module.css";
 import * as motion from "motion/react-client";
-import { Bounce } from "react-awesome-reveal";
+import { Slide } from "react-awesome-reveal";
 
 export const Brands = () => {
   return (
-    <Bounce direction="right" triggerOnce>
+    <Slide triggerOnce>
       <div className={`${styles.cardsContainer} flexContainer`}>
         {brands.map((image, i) => (
           <Card
@@ -18,7 +18,7 @@ export const Brands = () => {
           />
         ))}
       </div>
-    </Bounce>
+    </Slide>
   );
 };
 

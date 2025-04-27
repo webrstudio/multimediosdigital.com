@@ -4,7 +4,7 @@ import { options } from "./consts";
 import styles from "./styles.module.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { Bounce } from "react-awesome-reveal";
+import { Slide } from "react-awesome-reveal";
 
 const responsive = {
   desktop: {
@@ -27,7 +27,7 @@ const responsive = {
 export const Options = () => {
   return (
     <div className="flexContainer">
-      <Bounce direction="left" triggerOnce>
+      <Slide triggerOnce>
         <figure className={styles.logoWrapper}>
           <img src="/assets/images/logo/logo.png" />
         </figure>
@@ -46,7 +46,7 @@ export const Options = () => {
             </Link>
           ))}
         </Carousel>
-      </Bounce>
+      </Slide>
     </div>
   );
 };

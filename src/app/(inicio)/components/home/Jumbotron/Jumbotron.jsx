@@ -1,14 +1,14 @@
 import styles from "./styles.module.css";
-import { Bounce } from "react-awesome-reveal";
+import { Slide } from "react-awesome-reveal";
 
 export const Jumbotron = () => {
   return (
     <section className={styles.jumbotronWrapper}>
       <div className={styles.jumbotronTitles}>
         <div className={styles.jumbotronMaskTitles}>
-          <Bounce direction='right' triggerOnce>
+          <Slide triggerOnce>
             <h1 className={styles.jumbotronTitle}>MULTIMEDIOS DIGITAL</h1>
-          </Bounce>
+          </Slide>
         </div>
       </div>
     </section>
