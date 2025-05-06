@@ -22,7 +22,7 @@ html{
 /*ui colors*/
 :root{
   --black-primary:#070707;
-  --black-secondary:#4d4d4d;
+  --black-secondary:#0e0e0e;
   --blue-primary:#060e86;
   --box-shadow:#0000005d;
   --gray-primary:#9a9a9a;
@@ -52,4 +52,13 @@ html{
 /*borderRadius*/
 .borderRadius{
   border-radius: 9px;
+}
+/*backgroundBlackPrimary*/
+.bgBlackPrimary{
+  background: var(--black-primary);
+  color:var(--white-secondary);
+}
+.bgBlackSecondary{
+  background: var(--black-secondary);
+  color:var(--white-secondary);
 }

@@ -10,6 +10,7 @@
 .aboutWrapper h2{
     font-family:'Bebas neue';
     font-size:60px;
+    padding: 0 1rem;
 }
 .aboutWrapper hr{
     background:var(--gray-primary);
