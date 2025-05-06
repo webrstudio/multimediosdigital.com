@@ -1,5 +1,5 @@
 import styles from "./styles.module.css";
-import { Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 export const Title = ({ title, whiteColor, blackColor }) => {
   return (
     <h2
@@ -11,9 +11,9 @@ export const Title = ({ title, whiteColor, blackColor }) => {
         `
       }
     >
-      <Slide triggerOnce>
+      <Fade>
         {title}
-      </Slide>
+      </Fade>
     </h2>
   )
 };

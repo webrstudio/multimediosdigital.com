@@ -1,12 +1,15 @@
 .aboutWrapper{
+    align-items: center;
     color:var(--gray-primary);
     display:flex;
-    flex-direction: column;
     gap:1.5rem;
+    height:100vh;
+    justify-content: center;
+    text-align: center;
 }
-.aboutWrapper p{
-    line-height: 2.5rem;
-    text-align: justify;
+.aboutWrapper h2{
+    font-family:'Bebas neue';
+    font-size:60px;
 }
 .aboutWrapper hr{
     background:var(--gray-primary);

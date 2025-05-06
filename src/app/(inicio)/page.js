@@ -6,14 +6,6 @@ export default function Home() {
     <main>
       <Jumbotron />
       <Container backgroundBlack>
-        <Options />
-      </Container>
-      <Container>
-        <Title title="EL #1 DE PROPIEDADES DIGITALES EN MÉXICO" blackColor />
-        <Brands />
-      </Container>
-      <Container backgroundBlack>
-        <Title title="¿QUÉ ES M DIGITAL?" whiteColor />
         <About />
       </Container>
     </main>

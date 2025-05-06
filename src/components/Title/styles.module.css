@@ -1,8 +1,7 @@
 .titleWrapper {
   color: var(--gray-primary);
-  font-family: "Barlow Condensed", sans-serif;
+  font-family: "Bebas neue", sans-serif;
   font-size: 40px;
-  font-style: italic;
   font-weight: 700;
   overflow-x: hidden;
   padding-bottom: 8rem;

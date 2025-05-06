@@ -1,22 +1,29 @@
+import { Title } from "@/components";
 import styles from "./styles.module.css";
-import { Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 export const About = () => {
   return (
-    <div className={`${styles.aboutWrapper} flexContainer`}>
-      <Slide triggerOnce>
-        <p>
-          Somos la unidad especializada de Grupo Multimedios, llevamos a cabo la
-          planeación, ejecución y monitoreo de campañas dentro del ecosistema
-          digital.
-        </p>
-        <p>
-          Realizamos estrategias integrales utilizando un abanico robusto de
-          soluciones creativas e innovadoras con objetivo de awareness y
-          consideración.
-        </p>
-        <hr />
-      </Slide>
-    </div>
+    <>
+      <div className={`${styles.aboutWrapper} flexContainer`}>
+        <Fade delay={500}>
+          <h2>Nacimos para contar lo que importa</h2>
+        </Fade>
+      </div>
+      <div className={`${styles.aboutWrapper} flexContainer`}>
+        <Fade delay={500}>
+          <h2>
+            Somos palabra, imagen, emoción
+          </h2>
+        </Fade>
+      </div>
+      <div className={`${styles.aboutWrapper} flexContainer`}>
+        <Fade delay={500}>
+          <h2>
+            Somos el eco de lo que tú vives
+          </h2>
+        </Fade>
+      </div>
+    </>
   );
 };
