@@ -24,10 +24,6 @@ export const Jumbotron = () => {
           style={{ backgroundImage: `url(${img})` }}
         ></div>
       ))}
-      <video autoPlay loop muted playsInline className={styles.video}>
-        <source src="/assets/videos/video-promo.mp4" type="video/mp4" />
-        Tu navegador no soporta videos HTML5.
-      </video>
       <div className={styles.jumbotronMaskTitles}>
         <Fade>
           <TypeAnimation
@@ -56,11 +52,6 @@ export const Jumbotron = () => {
             src="/assets/images/logo/logo.png"
             className={styles.jumbotronImage}
           />
-        </Fade>
-        <Fade delay={1500}>
-          <a href="#" className={`${styles.jumbotronButton} borderRadius`}>
-            Descubre quiénes somos
-          </a>
         </Fade>
       </div>
     </section>

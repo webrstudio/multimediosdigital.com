@@ -1,0 +1,5 @@
+.videoWrapper{
+    background: var(--black-primary);
+    cursor:pointer;
+    width:100%;
+}

@@ -28,9 +28,6 @@ export const Options = () => {
   return (
     <div className="flexContainer">
       <Slide triggerOnce>
-        <figure className={styles.logoWrapper}>
-          <img src="/assets/images/logo/logo.png" />
-        </figure>
         <Carousel
           responsive={responsive}
           infinite={false}

@@ -6,7 +6,7 @@ export const brands = [
     },
     {
         image:'/assets/images/logos/mediotiempo.png',
-        background:'#fff',
+        background:'#000',
         pathBackground:'#feb341'
     },
     {
@@ -26,8 +26,8 @@ export const brands = [
     },
     {
         image:'/assets/images/logos/fama.png',
-        background:'#fff',
-        pathBackground:'#ff0000'
+        background:'#ff0000',
+        pathBackground:'#000'
     },
     {
         image:'/assets/images/logos/septima.png',

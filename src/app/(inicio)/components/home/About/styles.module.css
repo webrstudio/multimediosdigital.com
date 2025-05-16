@@ -7,13 +7,32 @@
     justify-content: center;
     text-align: center;
 }
-.aboutWrapper h2{
+.aboutTitle{
+    align-items: center;
+    background: #00000098;
+    display: flex;
+    flex-direction: column;
     font-family:'Bebas neue';
     font-size:60px;
+    gap:1rem;
+    height:100%;
+    justify-content: center;
     padding: 0 1rem;
+    width:100%;
 }
 .aboutWrapper hr{
     background:var(--gray-primary);
     margin-top:4rem;
     opacity: 0.5;
+}
+.aboutImage{
+    display: flex;
+    justify-content: center;
+    margin:0 auto;
+    width:100%;
+}
+.aboutImage img{
+    height:100%;
+    object-fit: contain;
+    width:200px;
 }
