@@ -1,6 +1,6 @@
 "use client";
 import styles from "./styles.module.css";
-import { Slide, Fade } from "react-awesome-reveal";
+import { Flip, Fade } from "react-awesome-reveal";
 
 export const About = () => {
   return (
@@ -40,7 +40,7 @@ export const About = () => {
           style={{
             ...aboutImageBackground,
             background: 'url("/assets/images/gallery/about-2.jpg")',
-            backgroundSize: "cover",
+            backgroundSize: "contain",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
           }}
@@ -77,15 +77,18 @@ export const About = () => {
         >
           <h2 className={styles.aboutTitle}>
             Donde la verdad se respira
-            <figure className={styles.aboutImage}>
-              <img src="/assets/images/logos/milenio.png" />
-            </figure>
+            <Flip>
+              <figure className={styles.aboutImage}>
+                <a href="https://www.milenio.com/" target="_blank">
+                  <img src="/assets/images/logos/milenio.png" />
+                </a>
+              </figure>
+            </Flip>
           </h2>
         </Fade>
       </div>
       <div style={aboutWrapper}>
         <Fade
-          delay={500}
           style={{
             ...aboutImageBackground,
             background: 'url("/assets/images/gallery/about-4.jpg")',
@@ -96,9 +99,13 @@ export const About = () => {
         >
           <h2 className={styles.aboutTitle}>
             No solo te lo contamos, lo vivimos contigo
-            <figure className={styles.aboutImage}>
-              <img src="/assets/images/logos/mediotiempo.png" />
-            </figure>
+            <Flip>
+              <figure className={styles.aboutImage}>
+                <a href="https://www.mediotiempo.com/" target="_blank">
+                  <img src="/assets/images/logos/mediotiempo.png" />
+                </a>
+              </figure>
+            </Flip>
           </h2>
         </Fade>
       </div>
@@ -115,12 +122,19 @@ export const About = () => {
         >
           <h2 className={styles.aboutTitle}>
             Contigo desde casa
-            <figure className={styles.aboutImage}>
-              <img
-                src="/assets/images/logos/canal-6.png"
-                style={{ width: "80px" }}
-              />
-            </figure>
+            <Flip>
+              <figure className={styles.aboutImage}>
+                <a
+                  href="https://www.multimediostv.com/en-vivo/cdmx"
+                  target="_blank"
+                >
+                  <img
+                    src="/assets/images/logos/canal-6.png"
+                    style={{ width: "80px" }}
+                  />
+                </a>
+              </figure>
+            </Flip>
           </h2>
         </Fade>
       </div>
@@ -137,9 +151,16 @@ export const About = () => {
         >
           <h2 className={styles.aboutTitle}>
             La radio que se siente como tribuna
-            <figure className={styles.aboutImage}>
-              <img src="/assets/images/logos/rg-la-deportiva.png" />
-            </figure>
+            <Flip>
+              <figure className={styles.aboutImage}>
+                <a
+                  href="https://www.mmradio.com/estaciones/rg-la-deportiva"
+                  target="_blank"
+                >
+                  <img src="/assets/images/logos/rg-la-deportiva.png" />
+                </a>
+              </figure>
+            </Flip>
           </h2>
         </Fade>
       </div>
@@ -156,9 +177,13 @@ export const About = () => {
         >
           <h2 className={styles.aboutTitle}>
             Celebramos el brillo de la vida
-            <figure className={styles.aboutImage}>
-              <img src="/assets/images/logos/fama.png" />
-            </figure>
+            <Flip>
+              <figure className={styles.aboutImage}>
+                <a href="https://www.revistafama.com/" target="_blank">
+                  <img src="/assets/images/logos/fama.png" />
+                </a>
+              </figure>
+            </Flip>
           </h2>
         </Fade>
       </div>
@@ -175,9 +200,13 @@ export const About = () => {
         >
           <h2 className={styles.aboutTitle}>
             Donde el estilo se encuentra con la cultura
-            <figure className={styles.aboutImage}>
-              <img src="/assets/images/logos/chic.png" />
-            </figure>
+            <Flip>
+              <figure className={styles.aboutImage}>
+                <a href="https://www.chicmagazine.com.mx/" target="_blank">
+                  <img src="/assets/images/logos/chic.png" />
+                </a>
+              </figure>
+            </Flip>
           </h2>
         </Fade>
       </div>
