@@ -28,6 +28,7 @@ export default function RootLayout({ children }) {
           <body>
             {!loading ? (
               <>
+                {path !== "/" ? <NavBar /> : null}
                 {children}
                 <Footer />
               </>

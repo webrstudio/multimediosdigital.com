@@ -37,7 +37,7 @@ export const Options = () => {
           itemClass="carousel-item-padding-40-px"
         >
           {options.map((option, index) => (
-            <Link href="/" key={index} className={styles.optionCard}>
+            <Link href={option.link} key={index} className={styles.optionCard}>
               <img src={option.image} />
               <span>{option.option}</span>
             </Link>

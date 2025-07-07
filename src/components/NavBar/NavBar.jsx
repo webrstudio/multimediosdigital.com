@@ -20,7 +20,7 @@ export const NavBar = () => {
           href="/"
           className={styles.navLogo}
         >
-          GOLDEN GYM
+          MULTIMEDIOS
         </Link>
         <button className={styles.buttonMenu} onClick={activeMenu}>
           {!isActive ? <HiMiniBars3 /> : <IoMdClose />}
@@ -32,24 +32,6 @@ export const NavBar = () => {
             onClick={activeMenu}
             >
               Inicio
-            </Link>
-          </li>
-          <li>
-            <Link
-            href="/tienda"
-            onClick={activeMenu}
-            >
-              Tienda
-            </Link>
-          </li>
-          <li>
-            <Link
-            href="/carrito"
-            onClick={activeMenu}
-            className={styles.navShoppingCart}
-            >
-              <LiaShoppingCartSolid/>
-              <span>{products.length}</span>
             </Link>
           </li>
         </ul>
