@@ -1,3 +1,14 @@
+.buttonMenu{
+    align-items: center;
+    background: none;
+    border:none;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom:4rem;
+    padding:0.5rem;
+    width:100px;
+}
 .talentCard{
     display:flex;
     flex-direction: column;
@@ -23,6 +34,7 @@
 .talentImage{
     background: var(--white-primary);
     display: flex;
+    height:500px;
     justify-content: center;
     width:100%;
 }

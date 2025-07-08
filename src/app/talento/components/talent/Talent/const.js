@@ -26,6 +26,7 @@ export const talent = [
       },
     ],
     image: "/assets/images/talent/carlos-posadas.png",
+    location: 'Monterrey'
   },
   {
     name: "Ángel castro",
@@ -46,6 +47,7 @@ export const talent = [
       },
     ],
     image: "/assets/images/talent/angel-castro.png",
+    location: 'Monterrey'
   },
   {
     name: "Daiana Villalba",
@@ -62,6 +64,7 @@ export const talent = [
       },
     ],
     image: "/assets/images/talent/daiana-villalba.png",
+    location: 'Monterrey'
   },
   {
     name: "Gina Pastor",
@@ -82,6 +85,7 @@ export const talent = [
       },
     ],
     image: "/assets/images/talent/gina-pastor.png",
+    location: 'Monterrey'
   },
   {
     name: "Jerry Hernández",
@@ -106,6 +110,7 @@ export const talent = [
       },
     ],
     image: "/assets/images/talent/jerry-hernandez.png",
+    location: 'Monterrey'
   },
   {
     name: "Arturo de la Garza",
@@ -126,6 +131,7 @@ export const talent = [
       },
     ],
     image: "/assets/images/talent/arturo-de-la-garza.png",
+    location: 'Monterrey'
   },
   {
     name: "Miguel Díaz",
@@ -142,6 +148,7 @@ export const talent = [
       },
     ],
     image: "/assets/images/talent/miguel-diaz.png",
+    location: 'Monterrey'
   },
   {
     name: "Hugo Santos",
@@ -158,6 +165,7 @@ export const talent = [
       },
     ],
     image: "/assets/images/talent/hugo-santos.png",
+    location: 'Monterrey'
   },
   {
     name: "Luis Roberto Zabalegui",
@@ -178,5 +186,95 @@ export const talent = [
       },
     ],
     image: "/assets/images/talent/luis-roberto-zabalegui.png",
+    location: 'Monterrey'
+  },
+  {
+    name: "Eduardo “El Doc”",
+    description:
+      "El Doc. salto a la fama por el reality Show “Big Brother” estudió la maestría en medicina estética con la finalidad de aprender la aplicación de algunos tratamientos de rejuvenecimiento, al día de hoy se destaca como conductor de Vivalavi.",
+    icons: [
+      {
+        icon: <FaFacebookSquare />,
+        link: "https://www.facebook.com/Eduardoeldoc?locale=es_LA",
+      },
+      {
+        icon: <FaInstagramSquare />,
+        link: "https://www.instagram.com/eduardoeldoc_q/",
+      },
+      {
+        icon: <FaSquareXTwitter />,
+        link: "https://twitter.com/docmirey",
+      },
+    ],
+    image: "/assets/images/talent/eduardo-el-doc.png",
+    location: 'Monterrey'
+  },
+  {
+    name: "Alexia Almeida",
+    description:
+      "Originaria de Monterrey N.L, forma parte del programa Vivalavi.",
+    icons: [
+      {
+        icon: <FaFacebookSquare />,
+        link: "https://www.facebook.com/alealmeidal",
+      },
+      {
+        icon: <FaInstagramSquare />,
+        link: "https://www.instagram.com/alexialmeida_l/",
+      },
+      {
+        icon: <FaSquareXTwitter />,
+        link: "https://twitter.com/Alexialmeida_L",
+      },
+      {
+        icon: <AiFillTikTok />,
+        link: "https://www.tiktok.com/@alexialmeidalattuada",
+      },
+    ],
+    image: "/assets/images/talent/alexia-almeida.png",
+    location: 'Monterrey'
+  },
+  /*Ciudad de México*/
+  {
+    name: "Madre Hadisima",
+    description:
+      "Jimena se describe como una mamá tal cual como muchas otras tratando de hacer más fácil esto de la maternidad. Nos cuenta las netas del proceso de la maternidad y los detalles del día a día al acompañar a sus hijos.",
+    icons: [
+      {
+        icon: <FaFacebookSquare />,
+        link: "https://www.facebook.com/MadreHadisima",
+      },
+      {
+        icon: <FaInstagramSquare />,
+        link: "https://www.instagram.com/madrehadisima/",
+      },
+    ],
+    image: "/assets/images/talent/madre-hadisima.png",
+    location: 'Ciudad de México'
+  },
+  {
+    name: "Raúl Magaña",
+    description:
+      "Raúl Magaña Rodríguez originario de la Ciudad de México nacido el 16 de septiembre de 1966. Actor, ex-modelo y conductor de televisión mexicano.",
+    icons: [
+      {
+        icon: <FaFacebookSquare />,
+        link: "https://www.facebook.com/raulmaganaencontacto",
+      },
+      {
+        icon: <FaInstagramSquare />,
+        link: "https://www.instagram.com/raulmaganamx/",
+      },
+      {
+        icon: <FaSquareXTwitter />,
+        link: "https://twitter.com/raulmaganamx",
+      },
+      {
+        icon: <AiFillTikTok />,
+        link: "https://www.tiktok.com/@raulmaganamx",
+      },
+    ],
+    image: "/assets/images/talent/raul-magana.png",
+    location: 'Ciudad de México'
   },
 ];
