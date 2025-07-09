@@ -39,7 +39,7 @@
     width:100%;
 }
 .talentImage img{
-    object-fit: cover;
+    object-fit: contain;
 }
 .talentName{
     text-align: center;

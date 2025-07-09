@@ -5,7 +5,6 @@ export default function Home() {
   return (
     <main>
       <Jumbotron />
-      <Video />
       <About />
       <Container>
         <Brands />
@@ -13,6 +12,7 @@ export default function Home() {
       <Container backgroundBlack>
         <Options />
       </Container>
+      <Video />
     </main>
   );
 }
