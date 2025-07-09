@@ -32,15 +32,26 @@
     list-style: none;
 }
 .talentImage{
+    align-items: center;
     background: var(--white-primary);
     display: flex;
     height:500px;
     justify-content: center;
+    margin:0 auto;
     width:100%;
 }
 .talentImage img{
+    height:100%;
     object-fit: contain;
+    width:100%;
 }
 .talentName{
     text-align: center;
+}
+@media (min-width:240px) and (max-width:990px){
+    .talentDescription{
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap:1rem;
+    }
 }
