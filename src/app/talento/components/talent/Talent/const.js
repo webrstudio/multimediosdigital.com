@@ -234,6 +234,69 @@ export const talent = [
     image: "/assets/images/talent/alexia-almeida.png",
     location: 'Monterrey'
   },
+  {
+    name: "Fer Ogushi",
+    description:
+      "Originaria de Monterrey N.L, forma parte del programa Vivalavi en fin de semana.",
+    icons: [
+      {
+        icon: <FaFacebookSquare />,
+        link: "https://www.facebook.com/ferogushi",
+      },
+      {
+        icon: <FaInstagramSquare />,
+        link: "https://www.instagram.com/ferogushi/",
+      },
+      {
+        icon: <FaSquareXTwitter />,
+        link: "https://twitter.com/ferogushi",
+      },
+      {
+        icon: <AiFillTikTok />,
+        link: "https://www.tiktok.com/@ferogushi",
+      },
+    ],
+    image: "/assets/images/talent/fer-ogushi.png",
+    location: 'Monterrey'
+  },
+  {
+    name: "Danny Villa",
+    description:
+      "Modelo, Dentista,  locutora y creadora de contenido. Buena vibra y una gran energía que transmite todos los días con su público.",
+    icons: [
+      {
+        icon: <FaFacebookSquare />,
+        link: "https://www.facebook.com/danivilla11",
+      },
+      {
+        icon: <FaInstagramSquare />,
+        link: "https://www.instagram.com/danivilla11/",
+      },
+      {
+        icon: <AiFillTikTok />,
+        link: "https://www.tiktok.com/@.danivilla",
+      },
+    ],
+    image: "/assets/images/talent/danny-villa.png",
+    location: 'Monterrey'
+  },
+  {
+    name: "William Salcedo",
+    description:
+      "Joven y carismático conductor de Multimedios, cuyo contenido consiste en dinámicas ingeniosas para conseguir premios, siendo extrovertido y alegre logra cautivar a las audiencias con su personalidad. ",
+    icons: [
+      {
+        icon: <FaInstagramSquare />,
+        link: "https://www.instagram.com/williamsalcedoo/?igsh=MXV4aWp3Ym1iemF6Mw==&utm_source=qr",
+      },
+      {
+        icon: <AiFillTikTok />,
+        link: "https://www.tiktok.com/@williamsalcedoo?_t=8j979ejZ1Ms&_r=1",
+      },
+    ],
+    image: "/assets/images/talent/madre-hadisima.png",
+    location: 'Ciudad de México'
+  },
   /*Ciudad de México*/
   {
     name: "Madre Hadisima",
