@@ -2,7 +2,7 @@ export const options = [
     {
         option: 'Podcast',
         image:'/assets/images/icons/podcast.png',
-        link:'/'
+        link:'/podcast'
     },
     {
         option: 'Display',
