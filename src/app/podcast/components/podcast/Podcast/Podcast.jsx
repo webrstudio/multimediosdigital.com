@@ -19,7 +19,7 @@ export const Podcast = () => {
             containerClass="carousel-container"
             itemClass="carousel-item-padding-40-px"
           >
-            <div>
+            <div className={styles.podcastWrapper}>
               <h3>En portada</h3>
               <iframe
                 src="https://open.spotify.com/embed/show/0lMK7zHBBc31MsZMFRPjra?utm_source=generator"
@@ -30,35 +30,45 @@ export const Podcast = () => {
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                 loading="lazy"
               />
-              <div>
-                <div>
-                  <span>Audiencia</span>
-                  <ul>
-                    <li>Sitio</li>
-                    <li>Anónimos 60%</li>
-                    <li>Registrados 40%</li>
-                  </ul>
-                  <ul>
-                    <li>Youtube</li>
-                    <li>25 y 34 años: 17.1%</li>
-                    <li>55 y 64 años: 19.1%</li>
-                    <li>35 y 44 años: 22.1%</li>
-                    <li>45 y 54 años: 20.9%</li>
-                  </ul>
-                  <ul>
-                    <li>Spotify</li>
-                    <li>28 y 34 años: 31.3%</li>
-                    <li>35 y 44 años: 34.1%</li>
-                  </ul>
-                </div>
-              </div>
-              <div>
-                <span>Opciones de comercialización</span>
+              <div className={`${styles.podcastInfo} boxShadow borderRadius`}>
+                <span>Audiencia:</span>
                 <ul>
-                  <li>Menciones de 15 a 30 segundos después de los titulares</li>
+                  <li>Sitio</li>
+                  <li>Anónimos 60%</li>
+                  <li>Registrados 40%</li>
+                </ul>
+                <ul>
+                  <li>Youtube</li>
+                  <li>25 y 34 años: 17.1%</li>
+                  <li>55 y 64 años: 19.1%</li>
+                  <li>35 y 44 años: 22.1%</li>
+                  <li>45 y 54 años: 20.9%</li>
+                </ul>
+                <ul>
+                  <li>Spotify</li>
+                  <li>28 y 34 años: 31.3%</li>
+                  <li>35 y 44 años: 34.1%</li>
+                </ul>
+              </div>
+              <div className={`${styles.podcastInfo} boxShadow borderRadius`}>
+                <span>Opciones de comercialización:</span>
+                <ul>
+                  <li>
+                    Menciones de 15 a 30 segundos después de los titulares
+                  </li>
+                </ul>
+                <ul>
                   <li>Imágen en spotify</li>
-                  <li>Patrocinio en <a href='/podcast'>HOME</a></li>
-                  <li>Patrocinio en <a href='/podcast'>Portada Milenio</a></li>
+                </ul>
+                <ul>
+                  <li>
+                    Patrocinio en <a href="/podcast">HOME</a>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    Patrocinio en <a href="/podcast">Portada Milenio</a>
+                  </li>
                 </ul>
               </div>
             </div>

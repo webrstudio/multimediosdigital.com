@@ -1,0 +1,28 @@
+.podcastWrapper{
+    display:flex;
+    flex-direction: column;
+    gap:2rem;
+    padding:1rem;
+}
+.podcastInfo{
+    align-items: center;
+    display:flex;
+    gap:1rem;
+    justify-content: space-between;
+    margin: 0 1rem;
+    padding:1rem;
+    text-align: center;
+}
+.podcastInfo ul{
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+    list-style: none;
+    width:100%;
+}
+@media (min-width:240px) and (max-width:990px){
+    .podcastInfo{
+        flex-direction: column;
+    }
+}
